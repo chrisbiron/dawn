@@ -18,10 +18,46 @@
         "enable_filtering": false,
         "enable_sorting": false
       }
+    },
+    "16295533427b0e6fbd": {
+      "type": "image-with-text",
+      "blocks": {
+        "16295533427b0e6fbd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "16295533427b0e6fbd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16295533427b0e6fbd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16295533427b0e6fbd-0",
+        "16295533427b0e6fbd-1",
+        "16295533427b0e6fbd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/marylou-faure-illustration_3dd6afa2-9e6f-44ca-9191-7913176071fe.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "16295533427b0e6fbd"
   ]
 }
